@@ -9,20 +9,29 @@
         <style>
 
             header {font-family: "Source Sans Pro", sans-serif;
-                text-align: right;}
+                text-align: right;
+                position: fixed;
+                background-color: white;
+                width: 80%;
+                top: 0;
+                z-index: 100;
+                padding-bottom: 0px;}
             
 
             body {font-family: "Source Sans Pro", sans-serif;
                 text-align: center;
-                padding-left: 60px;
-                padding-right: 60px;}
+                padding-left: 8%;
+                padding-right: 8%;
+                margin-top: 60px;
+                z-index:1;}
 
             aside {
-                width: 40%;
-                padding-left: 10px;
-                padding-right: 60px;
-                padding-bottom: 1px;
+                width: 50%;
+                padding-left: 1%;
+                padding-right: 1%;
+                padding-bottom: 1%;
                 float: right;
+                overflow-x: hidden;
             }
 
             a {
@@ -30,7 +39,7 @@
             }
 
             a.heading {
-                padding: 5px; 
+                padding: 1%; 
                 color:rgb(0, 0, 0); 
                 text-decoration:none;
             }
@@ -38,8 +47,8 @@
             a.heading:hover {font-weight:bolder;}
 
             a.button {
-                padding: 5px 40px;
-                margin: 15px;
+                padding: 1% 8%;
+                margin: 2%;
                 margin-bottom: 0px;
                 border: 1px outset buttonborder;
                 border-radius: 3px;
@@ -78,22 +87,20 @@
                     <a class ="heading" href ="index.html">Main</a>
                     <a class ="heading" href ="cv.html">CV</a>
                     <a class ="heading" href ="https://www.linkedin.com/in/mackenzie-hanh-cramer">LinkedIn</a>
-                    <!--a class ="heading" href ="extras.html">Extras</a-->
                 </div>
 
             </div>
-            
+            <hr style="width:100%; padding-left:0px; padding-right:0px; margin-left:0px; margin-right: 0px;"/>
 
         </header>
-        <hr style="width:100%; padding-left:0px; padding-right:0px; margin-left:0px; margin-right: 0px;"/>
 
         <main>
 
-            <div id="resume" style="padding-block-end: 20px">
+            <div id="cv" style="padding-block-end: 10%">
                 <br />
                 <br />
                 <h1 style="font-size:40px">CV</h1>
-                <embed src="CV.pdf" width="800px" height="1050px" />
+                <embed src="CV.pdf" width="70%" height="1050px" />
 
             </div>
 
