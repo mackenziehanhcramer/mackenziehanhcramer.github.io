@@ -1,184 +1,130 @@
 <!DOCTYPE html>
 <html lang ="en-US">
     <head>
+        <link rel="stylesheet" href="styler.css">
         <title>Mackenzie Hanh Cramer</title>
-
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
-        
-        <style>
-
-            header {font-family: "Source Sans Pro", sans-serif;
-                text-align: right;
-                position: fixed;
-                background-color: white;
-                width: 80%;
-                top: 0;
-                z-index: 100;
-                padding-bottom: 0px;}
-            
-
-            body {font-family: "Source Sans Pro", sans-serif;
-                text-align: center;
-                width: 80%;
-                padding-left: 8%;
-                padding-right: 8%;
-                margin-top: 60px;
-                z-index:1;}
-
-            aside {
-                width: 50%;
-                padding-left: 1%;
-                padding-right: 1%;
-                padding-bottom: 1%;
-                float: right;
-                overflow-x: hidden;
-            }
-
-            a {
-                color:rgb(78, 89, 189);
-            }
-
-            a.heading {
-                padding: 1%; 
-                color:rgb(0, 0, 0); 
-                text-decoration:none;
-            }
-
-            a.heading:hover {font-weight:bolder;}
-
-            a.button {
-                padding: 1% 8%;
-                margin: 2%;
-                margin-bottom: 0px;
-                border: 1px outset buttonborder;
-                border-radius: 3px;
-                color:rgb(0, 0, 0);
-                background-color: rgb(158, 172, 231);
-            }
-            a.button:hover {color:rgb(255, 252, 252);
-                background-color: darkblue;}
-
-            div {padding-block-end: 115px;}
-
-            .myspecial {
-                display: flex;
-                padding-block-end: 0px;
-            }
-
-            .myspecial > div {
-                width:50%;
-            }
-            
-        </style>
     </head>
      
     <body>   
 
         <header>
-
-            <div class="myspecial">
-                <div style="text-align: left; padding-block-end: 0px; font-size:large;">
+            <div class="special-heading">
+                <div style="text-align: left">
                     <h4> Mackenzie Hanh Cramer </h4>
                 </div>
 
-                <div style="text-align: right; padding-block-end: 0px; font-size:large;">
+                <div style="text-align: right">
                     <br />
                     <a class ="heading" href ="index.html">Main</a>
-                    <a class ="heading" href ="cv.html">CV</a>
-                    <a class ="heading" href ="https://www.linkedin.com/in/mackenzie-hanh-cramer" target = "_blank">LinkedIn</a>
+                    <a class ="heading" href ="samples.html">Samples</a>
                 </div>
 
             </div>
-            <hr style="width:100%; padding-left:0px; padding-right:0px; margin-left:0px; margin-right: 0px;"/>
-
+            <hr style="width:device-width"/>
         </header>
-        
 
         <main>
 
-            <div id="intro" style="padding-block-end: 2%">
-                <br />
-                <br />
-                <h1 style="font-size:40px; margin-bottom:0px;">Hello! I'm Mackenzie.</h1>
-                <p style="font-size:large; margin-top:0px"><i>(she/her)</i></p>
+            <div class="intro">
+                <h1>Hello! I'm Mackenzie.</h1>
+                <p><i>(she/her)</i></p>
             </div>
             
 
-            <div id="about"  style="text-align:center; font-size:large;">
+            <div class="about">
                 <!-- About -->
                     <br />
-
                     <aside id="profile photo">
-                        <img src="https://lh3.googleusercontent.com/d/1N8BZI6rtzrjFdBgJNULTP0hNQIggQHMh=s10000?authuser=0" width=60% height=60%>
+                        <img src="https://lh3.googleusercontent.com/d/1N8BZI6rtzrjFdBgJNULTP0hNQIggQHMh=s10000?authuser=0">
                     </aside>
 
-                    <p style="padding-left:15%;">I am a Masters student in Information Management and Systems at the iSchool at UC Berkeley.
-                        At Berkeley, I've been working at Bancroft Library and have been researching in the field of cultural analytics, advised by 
+                    <p>I'm a Masters student in Information Management and Systems @ UC Berkeley.</p>
+                        At Berkeley, I've been working at 
+                        <a href ="https://www.lib.berkeley.edu/visit/bancroft" target = _blank;>Bancroft Library</a> and have been researching in the field of cultural analytics, advised by 
                         <a href ="https://people.ischool.berkeley.edu/~dbamman/" target = _blank;>David Bamman</a>.
-                        I am interested in topics related to computational social science, digital scholarship, and digital humanities.
+                        Data science is my expertise, and my research has typically fallen among topics related to computational social science, digital scholarship, and digital humanities.
                     </p>
             
-                    <p style="padding-left:15%;"> In Fall 2025, I was a TA for <a href ="https://data102.org" target = _blank;>Data 102</a>.
-                        In the past I've done work promoting equity in education, working as a student advisor in making an Ethnic Studies
-                        Curriculum for Sonoma County high schools. 
-                        I was lucky enough to be data analytics intern <a href ="https://yipinstitute.org" target = _blank;>The Institute for Youth in Policy</a> 
-                        and more recently, I've interned for companies like <a href ="https://emotect.ai" target = _blank;>Emotect AI</a> and <a href ="https://www.evolent.com" target = _blank;>Evolent Health</a> . <br />
+                    <p> Currently, I'm on course staff for Natural Language Processing! (I was also on staff for this course <a href ="https://people.ischool.berkeley.edu/~dbamman/nlp25.html" target = _blank;>last spring</a>.)
+                        In Fall 2025, I was a TA for <a href ="https://data102.org" target = _blank;>Data 102</a>.
                     </p>
 
-                    <p style="padding-left:15%;">I also studied abroad at Yonsei University in South Korea!
-                        I worked at the <a href ="https://www.barunict.org" target = _blank;>Barun ICT Research Center</a> 
-                        as an intern.<br />
-                    </p>
+                    </br>
             </div>
 
+            <div class="timeline">
+                <h1>A selection of things I've been up to</h1>
 
-            <div id="publications" style="padding-left:15%; padding-right:15%">
+                <article class="event">
+                    <aside class="timeline-date">Dec 2025</aside>
+                    <p class="timeline-content">Presented "Measuring the Stories in Contemporary Songs" @ CHR 2025 in Luxembourg with Sabrina Baur + David Bamman</p>
+                </article>
 
-                <!-- Publications -->
-                <h1>Publications</h1>
-                <p style="font-size: large"><b size=+2>Measuring the Stories in Contemporary Songs</b><br />
-                    <a href ="https://people.ischool.berkeley.edu/~dbamman/" target = "_blank">David Bamman</a>,
-                    Sabrina Baur,
-                    Anna Ho,
-                    <a href ="https://complit.berkeley.edu/people/tom-mcenaney" target = "_blank">Tom McEnaney</a>,
-                    Mackenzie Cramer<br /></p>
+                <article class="event">
+                    <aside class="timeline-date">Aug 2025</aside>
+                    <p class="timeline-content">Started my Masters @ School of Information, UC Berkeley (double bear status achieved!)</br>
+                    Became head TA for Data 102</p>
+                </article>
 
-                <p>We analyze the degree of narrativity present throughout popular and prestigious English song lyrics across 1960-2024. 
-                <a href = "https://anthology.ach.org/volumes/vol0003/measuring-stories-in-contemporary-songs/10.63744@w9C0wDxmZTVt.pdf" target = "_blank">Anthology of Computers and the Humanities.</a></p>
+                <article class="event">
+                    <aside class="timeline-date">May 2025</aside>
+                    <p class="timeline-content">"Multimodal Conversation" was published</p>
+                </article>
 
-                <p style="font-size: large"><b size=+2>Speak, Memory: An Archaeology of Books Known to ChatGPT/GPT-4</b><br />
-                    <a href ="https://kentkc.org" target = "_blank">Kent K. Chang</a>, 
-                    <a href ="https://sandeepsoni.github.io" target = "_blank">Sandeep Soni</a>, 
-                    <a href ="https://people.ischool.berkeley.edu/~dbamman/" target = "_blank">David Bamman</a>, 
-                    Mackenzie Cramer<br /></p>
+                <article class="event">
+                    <aside class="timeline-date">Jan 2025</aside>
+                    <p class="timeline-content">Became reader for Info 159/259 (NLP)</p>
+                </article>
 
-                <p>In this work, we carry out a data archaeology to infer books that are known to ChatGPT 
-                    and GPT-4 using a name cloze membership inference query. 
-                <a href = "https://arxiv.org/abs/2305.00118" target = "_blank">arXiv preprint.</a></p>
+                <article class="event">
+                    <aside class="timeline-date">Dec 2024</aside>
+                    <p class="timeline-content">Graduated with 2 Bachelors: Data Science, Cognitive Science</p>
+                </article>
 
-                <p style="font-size: large"><b size=+2>Multimodal Conversation Structure Understanding</b><br />
-                    <a href ="https://kentkc.org" target = "_blank">Kent K. Chang</a>, 
-                    Anna Ho, 
-                    Ti Ti Nguyen, 
-                    Yilin Yuan,
-                    <a href ="https://people.ischool.berkeley.edu/~dbamman/" target = "_blank">David Bamman</a>, 
-                    Mackenzie Cramer<br /></p>
+                <article class="event">
+                    <aside class="timeline-date">Jul 2024</aside>
+                    <p class="timeline-content">Panel member for SMASH Academy event</p>
+                </article>
 
-                <p>We introduce a suite of tasks focused on conversational role attribution (speaker, addressees, side-participants) and conversation threading (utterance linking and clustering), drawing on conversation analysis and sociolinguistics. 
-                    To support those tasks, we present a human annotated dataset of 4,398 annotations for speakers and reply-to relationship, 5,755 addressees, and 3,142 side-participants.
-                <a href = "https://arxiv.org/pdf/2505.17536" target = "_blank">arXiv preprint.</a></p>
-                
-            
+                <article class="event">
+                    <aside class="timeline-date">Jan 2024</aside>
+                    <p class="timeline-content">Studied abroad @ Yonsei University</p>
+                </article>
+
+                <article class="event">
+                    <aside class="timeline-date">Oct 2023</aside>
+                    <p class="timeline-content">First paper ("Speak, Memory") was published!</p>
+                </article>
+
+                <article class="event">
+                    <aside class="timeline-date">Feb 2023</aside>
+                    <p class="timeline-content">Began annotating and working as Undergraduate Research Assistant</p>
+                </article>
+
+                <article class="event">
+                    <aside class="timeline-date">Jul 2022</aside>
+                    <p class="timeline-content">Began working @ Bancroft Library</p>
+                </article>
+
+                <article class="event">
+                    <aside class="timeline-date">Aug 2021</aside>
+                    <p class="timeline-content">Started my undergrad @ UC Berkeley</p>
+                </article>
+
+                <article class="event">
+                    <aside class="timeline-date">Mar 2021</aside>
+                    <p class="timeline-content">Got awarded the Redwood Empire Chinese Association scholarship</p>
+                </article>
+
             </div>
 
-            <div id="background" style="padding-bottom: 10%">
+            <div class="background">
                 <!-- Background -->
-                <h1>Some Background</h1>
-                <p style="font-size: large">I'm a NorCal native!<br /> 
-                    Although I don't have one, I love dogs, chickens, and most other animals.<br />
-                    I'm always open to talk and love to get music, travel, and food recs! <br />
-                    I played piano and clarinet, but I'm <em>very</em> rusty so keep expectations low.<br />
+                <h1>More about me</h1>
+                <p>I'm a NorCal native.<br /> 
+                    I love dogs, chickens, and most other animals.<br />
+                    I play(ed) piano and bass clarinet, but I'm <em>very</em> rusty so expectations should remain low.<br />
                 </p>
 
             </div>
@@ -186,12 +132,12 @@
         </main>
 
         <footer>
-
-            <div style="padding-bottom: 60px;">
+            <div class="footer-bottom">
                 <a href="mailto:mackenzie.hanh@ischool.berkeley.edu" class="button">Email</a>
                 <a href="https://github.com/mackenziehanhcramer" class="button" target = "_blank">Github</a>
+                <a href ="https://www.linkedin.com/in/mackenzie-hanh-cramer" class="button" target = "_blank">LinkedIn</a>
+                <a href ="cv.html" class="button">CV</a>
             </div>
-
         </footer>
 
      </body>
