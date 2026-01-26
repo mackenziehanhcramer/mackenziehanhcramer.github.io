@@ -29,26 +29,6 @@ body {
     cursor: grab;
 }
 
-.footer-bottom {
-    font-family: "Newsreader", sans-serif;
-    text-align: center;
-    width: device-width;
-    bottom:0;
-    padding:0;
-    padding-bottom:3%;
-    height: 30px;
-}
-
-img{
-    width: 60%;
-    height: 60%;
-    margin:auto;
-
-    display:block;
-    max-width: 200px;
-    min-width:150px;
-}
-
 div {
     padding-block-end: 10%;
     clear:both;
@@ -105,13 +85,6 @@ div {
     margin:0;
 }
 
-button{
-    height:35px;
-    font-family: "Newsreader", sans-serif;
-    font-weight:bold;
-    
-}
-
 .pub-authors{
     margin:0;
     margin-bottom:5px;
@@ -124,8 +97,18 @@ button{
     padding-top:0;
 }
 
+img{
+    width: 60%;
+    height: 60%;
+    margin:auto;
+
+    display:block;
+    max-width: 200px;
+    min-width:150px;
+}
+
 aside {
-    width: 30%;
+    width: auto;
     padding-left: 1%;
     padding-right: 1%;
     padding-bottom: 1%;
@@ -147,12 +130,30 @@ a.heading:hover {
     font-weight:bolder;
 }
 
+footer{
+    font-family: "Newsreader", sans-serif;
+    text-align: center;
+    width: device-width;
+    bottom:0;
+    padding:0;
+    margin-bottom:30px;
+    height: 30px;
+}
+
+button{
+    height:35px;
+    font-family: "Newsreader", sans-serif;
+    font-weight:bold; 
+}
+
 a.button {
-    padding: 2% 5%;
-    margin: 2%;
+    width:auto;
+    height:auto;
+    padding: 20px;
+    margin: 10px;
     margin-bottom: 0px;
     border: 1px outset buttonborder;
-    border-radius: 3px;
+    border-radius: 25px;
     color:rgb(0, 0, 0);
     background-color: rgb(158, 172, 231);
 }
